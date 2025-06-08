@@ -1,5 +1,6 @@
 name: features_scaffold
 description: A new brick created with the Mason CLI with the preloaded codes to save time.
+repository: https://github.com/Nano-Core-Pvt-Ltd/features-scaffold.git
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
