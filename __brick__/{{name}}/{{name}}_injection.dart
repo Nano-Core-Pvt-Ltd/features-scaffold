@@ -1,9 +1,9 @@
 import '../../../core/constants/injection.dart';
 import '../../../core/network/dio_network.dart';
-import '../../__brick__{{name}}/data/datasources/{{name.lowerCase()}}_api.dart';
-import '../../__brick__{{name}}/data/repositories/{{name.lowerCase()}}_repository.dart';
-import '../../__brick__{{name}}/domain/repositories/base_{{name.lowerCase()}}_repository.dart';
-import '../../__brick__{{name}}/domain/usecases/{{name.lowerCase()}}_usecase.dart';
+import 'data/datasources/{{name}}_api.dart';
+import 'data/repositories/{{name}}_repository.dart';
+import 'domain/repositories/base_{{name}}_repository.dart';
+import 'domain/usecases/{{name}}_usecase.dart';
 
 init{{name.pascalCase()}}Injections() {
   getIt.registerLazySingleton<{{name.pascalCase()}}Api>(

@@ -7,7 +7,7 @@ class {{name.pascalCase()}} extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => {{name.pascalCase()}}Bloc({{name.pascalCase()}}UseCase: getIt<{{name.pascalCase()}}UseCase>()),
+      create: (context) => {{name.pascalCase()}}Bloc({{name.camelCase()}}UseCase: getIt<{{name.pascalCase()}}UseCase>()),
       child: {{name.pascalCase()}}View(),
     );
   }

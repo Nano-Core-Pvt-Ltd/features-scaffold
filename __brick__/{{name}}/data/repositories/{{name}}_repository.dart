@@ -4,6 +4,7 @@ import '../../../../../core/network/error/exceptions.dart';
 import '../../../../../core/network/error/failures.dart';
 import '../../domain/repositories/base_{{name}}_repository.dart';
 import '../datasources/{{name}}_api.dart';
+import '../models/{{name}}_model.dart';
 
 class {{name.pascalCase()}}Repository implements Base{{name.pascalCase()}}Repository {
   final {{name.pascalCase()}}Api {{name.camelCase()}}Api;

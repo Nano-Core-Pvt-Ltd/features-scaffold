@@ -2,6 +2,7 @@ import 'package:dartz/dartz.dart';
 
 import '../../../../../core/network/error/failures.dart';
 import '../repositories/base_{{name}}_repository.dart';
+import '../../data/models/{{name}}_model.dart';
 
 class {{name.pascalCase()}}UseCase {
   final Base{{name.pascalCase()}}Repository base{{name.pascalCase()}}Repository;
