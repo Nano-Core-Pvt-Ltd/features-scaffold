@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 
-import '../../../../core/network/error/failures.dart';
+import '../../../../../core/network/error/failures.dart';
 import '../repositories/base_{{name}}_repository.dart';
 
 class {{name.pascalCase()}}UseCase {

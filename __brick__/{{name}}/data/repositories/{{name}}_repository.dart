@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
-import '../../../../core/network/error/exceptions.dart';
-import '../../../../core/network/error/failures.dart';
+import '../../../../../core/network/error/exceptions.dart';
+import '../../../../../core/network/error/failures.dart';
 import '../../domain/repositories/base_{{name}}_repository.dart';
 import '../datasources/{{name}}_api.dart';
 

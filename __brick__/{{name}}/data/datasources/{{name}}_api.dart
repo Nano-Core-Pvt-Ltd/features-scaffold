@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 
-import '../../../../core/constants/app_constants.dart';
-import '../../../../core/network/error/dio_error_handler.dart';
-import '../../../../core/network/error/exceptions.dart';
-import '../models/{{name}}_model.dart';
+import '../../../../../core/constants/app_constants.dart';
+import '../../../../../core/network/error/dio_error_handler.dart';
+import '../../../../../core/network/error/exceptions.dart';
+import '../../../../__brick__{{name}}/data/models/{{name}}_model.dart';
 import 'base_{{name}}_api.dart';
 
 class {{name.pascalCase()}}Api implements Base{{name.pascalCase()}}Api {
