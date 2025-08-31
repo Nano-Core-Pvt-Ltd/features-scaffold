@@ -5,7 +5,7 @@ import 'data/repositories/{{name}}_repository.dart';
 import 'domain/repositories/base_{{name}}_repository.dart';
 import 'domain/usecases/{{name}}_usecase.dart';
 
-init{{name.pascalCase()}}Injections() {
+Future<void> init{{name.pascalCase()}}Injections() async {
   getIt.registerLazySingleton<{{name.pascalCase()}}Api>(
     () => {{name.pascalCase()}}Api(dio: DioNetwork.appAPI),
   );
